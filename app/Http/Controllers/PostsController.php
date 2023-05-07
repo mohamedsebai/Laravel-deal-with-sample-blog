@@ -122,6 +122,7 @@ class PostsController extends Controller
     {
       $post_to_delete = Post::findOrFail($id);
       $post_to_delete->delete();
+      //Post::where('id', $id)->delete(); // other way to delete
       return redirect()->route('blog.index')->with('message', 'delete success');
     }
 }
