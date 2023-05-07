@@ -1,0 +1,29 @@
+.navbar{
+  background-color: #27602e !important;
+}
+.bg-image{
+  background-image: url('../imgs/blog-cover.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+}
+.bg-image h1{
+  text-transform: uppercase;
+  display: inline-block;
+
+}
+.bg-image h1, .bg-image p{
+  background-color: #27602e;
+  padding: 5px 20px;
+}
+
+.category-box{
+  width: 100%;
+  background: #cbcbcb;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.content-box span{
+  color: #b92626 !important;
+}
